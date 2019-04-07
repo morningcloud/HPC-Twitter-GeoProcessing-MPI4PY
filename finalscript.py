@@ -16,7 +16,7 @@ start = time.time()
 phasestart = time.time()  
 
 melbGrid = 'melbGrid.json'
-path = 'testTwitter.json'
+path = 'bigTwitter.json'
 
 class process:
     def __init__(output, grid, chunk, path):
@@ -125,14 +125,14 @@ if rank == 0:
     
     #Adjust the chunk boundries to make sure each chunk begins at new line
     tmpfile=open(path,'rb')
-    print("filesize= ",n,"bytes file byte chunk per rank:")
+    #print("filesize= ",n,"bytes file byte chunk per rank:")
     for i in range(len(chunk)):
         tmpfile.seek(chunk[i][1],os.SEEK_SET)
         s = tmpfile.readline() #read string till line end
         if(i > 0):
             chunk[i][0] = (chunk[i-1][1]) + 1
         chunk[i][1] = chunk[i][1]+len(s) - 1 #update final byte to line end
-        print("Rank",i,"byte range",chunk[i])
+        #print("Rank",i,"byte range",chunk[i])
     tmpfile.close()
     
     #till now operation only done by master
