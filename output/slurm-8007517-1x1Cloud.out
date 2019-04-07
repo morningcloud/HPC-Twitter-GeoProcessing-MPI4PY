@@ -1,0 +1,39 @@
+Phase: First Master Work, Current phase running time :  0.004907846450805664
+Phase: Rank  0  Ready to start, Running time :  5.817413330078125e-05
+Rank  0 , lines read= 2500002 , process attempted= 2500000 , rownum= 2500000 , readerror= 2098056 successread= 401944
+Phase: Rank  0  Job Completed, Running time :  173.76773619651794
+Phase: All Core Work, Rank  0 , Data Gather Completed, Running time :  0.06122183799743652
+C2: 145096 posts
+B2: 79633 posts
+C3: 53299 posts
+B3: 26550 posts
+C4: 19699 posts
+B1: 16507 posts
+D4: 14497 posts
+D3: 13388 posts
+C1: 8427 posts
+B4: 5450 posts
+A3: 5036 posts
+A2: 4165 posts
+C5: 4106 posts
+D5: 3248 posts
+A1: 2533 posts
+A4: 310 posts
+C2: [('melbourne', 10523), ('australia', 1557), ('job', 1473), ('jobs', 1300), ('hiring', 845)]
+B2: [('melbourne', 864), ('auspol', 339), ('victraffic', 239), ('australia', 173), ('nashsnewvideo', 123)]
+C3: [('melbourne', 510), ('victraffic', 297), ('auspol', 180), ('australia', 151), ('mkr', 137)]
+B3: [('melbourne', 179), ('victraffic', 139), ('auspol', 65), ('australia', 62), ('fitness', 55)]
+C4: [('auspol', 264), ('savedallas', 157), ('victraffic', 144), ('vote5sos', 97), ('alishas1million', 96)]
+B1: [('melbourne', 179), ('kca', 81), ('vote5sos', 78), ('victraffic', 72), ('australia', 65)]
+D4: [('nowplaying', 1730), ('karishmatannacraze', 81), ('victraffic', 79), ('jobs', 40), ('melbourne', 32)]
+D3: [('melbourne', 84), ('victraffic', 63), ('beach', 60), ('1s', 35), ('joesuggtofollowconniekirk', 31)]
+C1: [('jackfollowme', 104), ('jackdm', 97), ('camto4mill', 73), ('christmasfollowparty', 62), ('jamesyamm', 59), ('mashnewvideo', 59)]
+B4: [('melbourne', 35), ('smallzywelcomeshome5sos', 27), ('vote5sos', 23), ('vicfires', 21), ('livechatwithmirandasings', 20), ('fire', 20)]
+A3: [('vicfires', 19), ('saveconstantine', 17), ('girls', 11), ('raw', 11), ('socceroos', 11), ('epping.', 11), ('mvfc', 9), ('ufc184', 9), ('melbourne', 8), ('love', 8)]
+A2: [('krazykristmas', 167), ('egsholidaygiveaway', 57), ('rcl1milliongiveaway', 53), ('vdaywithbeth', 37), ('craigieburn.', 31), ('egholidaygiveaway', 31)]
+C5: [('melbourne', 53), ('victraffic', 31), ('photo', 20), ('australia', 17), ('dandenongs', 14)]
+D5: [('somebodytocon', 27), ('cat,', 25), ('melbourne', 22), ('victraffic', 20), ('lost', 20), ('voteukvampettes', 18)]
+A1: [('melbourne', 15), ('bbau', 14), ('tattoo', 11), ('vobis', 11), ('judo', 10), ('worldjudo2014', 9)]
+A4: [('auspol', 7), ('libspill', 5), ('qldvotes', 4), ('lnp', 4), ('photo', 3), ('birthday', 3), ('vicfires', 3), ('countdown', 2), ('laughterclass', 2), ('goingdownswinging', 2), ('joy', 2), ('community', 2), ('qldvotes.', 2), ('mytribe', 2), ('celebmerv', 2), ('victraffic', 2), ('market', 2), ('cycling', 2)]
+Phase: Last Master work Completed, Running time :  0.05903267860412598
+running time :  173.89310836791992
