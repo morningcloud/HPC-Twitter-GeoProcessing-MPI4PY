@@ -45,10 +45,9 @@ class process:
                     except:
                         json_load = json.loads(json_raw[0:-2])
 
-                    # read line while in range of the end offset    
-                    # avoid duplicate reading by substract with average size per line - 4500   
+                    # read line while in range of the end offset     
                     processed += 1
-                    if json_file.tell() <= limit[1] :# - 4500 <= limit[1] :
+                    if json_file.tell() <= limit[1] :
                         rownum = rownum + 1
                         try:
                             x = float(json_load['doc']['coordinates']['coordinates'][0])
@@ -132,7 +131,7 @@ if rank == 0:
         if(i > 0):
             chunk[i][0] = (chunk[i-1][1]) + 1
         chunk[i][1] = chunk[i][1]+len(s) - 1 #update final byte to line end
-        #print("Rank",i,"byte range",chunk[i])
+        print("Rank",i,"byte range",chunk[i])
     tmpfile.close()
     
     #till now operation only done by master
